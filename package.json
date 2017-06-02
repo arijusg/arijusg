@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod && angular-cli-ghpages"
+    "deploy": "ng build --prod --deployUrl 'https://arijusg.github.io/arijusg' --base-href 'https://arijusg.github.io/arijusg' && angular-cli-ghpages"
   },
 
   "private": true,
